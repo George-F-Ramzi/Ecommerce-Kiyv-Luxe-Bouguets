@@ -34,7 +34,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${Gilroy.variable} lg:mx-20 mt-[1px] mb-20 mx-4 sm:mx-12 relative m-auto border border-default font-sans max-w-[1280px]`}
+				className={`${Gilroy.variable} relative border border-default lg:mx-20 mt-[1px] mb-20 mx-4 sm:mx-12 font-sans m-auto max-w-[1280px]`}
 			>
 				<NavBar />
 				{children}

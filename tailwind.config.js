@@ -15,6 +15,7 @@ module.exports = {
 			},
 			colors: {
 				black: "#121212",
+				para: "#2A2A2A",
 			},
 		},
 	},

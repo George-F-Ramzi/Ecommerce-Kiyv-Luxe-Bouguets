@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function NavBar() {
@@ -17,7 +18,12 @@ export default function NavBar() {
 					/>
 				</div>
 				<div className="h-full cursor-pointer flex items-center justify-center grow sm:border-r border-default">
-					<h1 className="font-semibold text-xl">LuxeBouguets</h1>
+					<Link
+						href={"/"}
+						className="font-semibold text-xl"
+					>
+						LuxeBouguets
+					</Link>
 				</div>
 			</div>
 			<div className="h-full cursor-pointer flex items-center justify-center px-4 border-l border-default">

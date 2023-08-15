@@ -1,10 +1,14 @@
-import Category from "@/components/category";
+import About from "@/components/landing/about";
+import CategoryAndHero from "@/components/landing/categoryAndHero";
+import Why from "@/components/landing/why";
 import Image from "next/image";
 
 export default function Home() {
 	return (
 		<main>
-			<Category />
+			<CategoryAndHero />
+			<About />
+			<Why />
 		</main>
 	);
 }

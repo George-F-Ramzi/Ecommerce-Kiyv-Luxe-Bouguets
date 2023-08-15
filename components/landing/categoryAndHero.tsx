@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-function Category() {
+function CategoryAndHero() {
 	return (
 		<section className="min-[932px]:grid grid-cols-[1fr,1fr] ">
 			<div>
@@ -101,4 +101,4 @@ function Category() {
 	);
 }
 
-export default Category;
+export default CategoryAndHero;

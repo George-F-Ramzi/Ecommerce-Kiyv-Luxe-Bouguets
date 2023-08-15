@@ -1,9 +1,9 @@
-import NavBar from "@/components/NavBars/navBar";
+import NavBar from "@/components/navBar";
 import "./globals.css";
 import localFont from "next/font/local";
 
 export const metadata = {
-	title: "Kyiv LuxeBouquets",
+	title: "Luxe Bouquets",
 	description:
 		"Discover Uniquely Crafted Bouquets and Gifts for Any Occasion: Spread Joy with Our Online Flower Delivery Service",
 };
@@ -34,7 +34,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${Gilroy.variable}  relative m-auto border border-default font-sans max-w-[1440px]`}
+				className={`${Gilroy.variable} lg:mx-20 mt-[1px] mb-20 mx-4 sm:mx-12 relative m-auto border border-default font-sans max-w-[1280px]`}
 			>
 				<NavBar />
 				{children}

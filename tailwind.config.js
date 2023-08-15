@@ -16,12 +16,6 @@ module.exports = {
 			colors: {
 				black: "#121212",
 			},
-			screens: {
-				aboveDesktop: { min: "1440px" },
-				desktop: { max: "1440px" },
-				tablet: { max: "768px" },
-				mobile: { max: "375px" },
-			},
 		},
 	},
 	plugins: [],

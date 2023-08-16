@@ -3,7 +3,7 @@ import React from "react";
 function About() {
 	return (
 		<section className="min-[932px]:grid grid-cols-2  border-b border-default">
-			<div className=" min-[932px]:border-t min-[932px]:border-r border-default text-[40px] font-semibold px-6 py-8 sm:px-16 sm:pt-[51px] sm:pb-16">
+			<div className="border-b min-[932px]:border-b-0 min-[932px]:border-t min-[932px]:border-r border-default text-[40px] font-semibold px-6 py-8 sm:px-16 sm:pt-[51px] sm:pb-16">
 				About us
 			</div>
 			<div className=" px-6 py-8 sm:px-16 sm:pt-[51px] sm:pb-16">

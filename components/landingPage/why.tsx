@@ -2,7 +2,7 @@ import React from "react";
 
 function Why() {
 	return (
-		<section className="min-[932px]:grid grid-cols-2  border-b border-default">
+		<section className="min-[932px]:grid grid-cols-2  ">
 			<div className="border-b min-[932px]:border-r border-default text-3xl sm:text-[40px] font-semibold px-6 py-8 sm:px-16 sm:pt-[51px] sm:pb-16">
 				Why Choose Us ?
 			</div>
@@ -31,7 +31,7 @@ function Why() {
 						thoughtful gift reliably.
 					</p>
 				</div>
-				<div className=" px-6 py-8 sm:px-16 sm:pt-[51px] sm:pb-16">
+				<div className=" border-b border-default px-6 py-8 sm:px-16 sm:pt-[51px] sm:pb-16">
 					<h2 className=" text-4xl text-black font-semibold">Safe Payment</h2>
 					<p className="text-base mt-4 leading-[150%] text-para font-normal">
 						You can feel secure when placing an order with us, as we use

@@ -1,7 +1,7 @@
-import About from "@/components/landing/about";
-import CategoryAndHero from "@/components/landing/categoryAndHero";
-import Why from "@/components/landing/why";
-import Image from "next/image";
+import About from "@/components/landingPage/about";
+import CategoryAndHero from "@/components/landingPage/categoryAndHero";
+import Reviews from "@/components/landingPage/reviews";
+import Why from "@/components/landingPage/why";
 
 export default function Home() {
 	return (
@@ -9,6 +9,7 @@ export default function Home() {
 			<CategoryAndHero />
 			<About />
 			<Why />
+			<Reviews />
 		</main>
 	);
 }

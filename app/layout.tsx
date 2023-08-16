@@ -1,6 +1,7 @@
 import NavBar from "@/components/navBar";
 import "./globals.css";
 import localFont from "next/font/local";
+import Footer from "@/components/Footer";
 
 export const metadata = {
 	title: "Luxe Bouquets",
@@ -38,6 +39,7 @@ export default function RootLayout({
 			>
 				<NavBar />
 				{children}
+				<Footer />
 			</body>
 		</html>
 	);

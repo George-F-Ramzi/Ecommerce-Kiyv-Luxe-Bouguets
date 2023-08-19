@@ -13,27 +13,6 @@ function Footer() {
 			</div>
 			<div className="p-6 sm:p-16 flex  justify-between">
 				<div>
-					<h2 className="text-[#808080] font-normal mb-3 text-2xl">Products</h2>
-					<Link
-						className="font-normal text-lg block text-black mb-2"
-						href={"/"}
-					>
-						Flowers
-					</Link>
-					<Link
-						className="font-normal text-lg block text-black mb-2"
-						href={"/"}
-					>
-						Candles
-					</Link>
-					<Link
-						className="font-normal text-lg block text-black"
-						href={"/"}
-					>
-						Vasa
-					</Link>
-				</div>
-				<div>
 					<h2 className="text-[#808080] font-normal mb-3 text-2xl">About Us</h2>
 					<Link
 						className="font-normal text-lg block text-black mb-2"

@@ -11,7 +11,7 @@ function ProductPage({ params }: { params: { id: string } }) {
 					height={560}
 					width={560}
 					alt="category image"
-					src={`/flowers.webp`}
+					src={`/hero.webp`}
 				/>
 				<div className="max-[600px]:px-6 max-[600px]:py-8  p-16 pr-12 pb-10 flex flex-col justify-between min-[900px]:border-l border-b border-default">
 					<div className="mb-14">

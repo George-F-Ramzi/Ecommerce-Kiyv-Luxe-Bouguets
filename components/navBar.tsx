@@ -14,7 +14,7 @@ export default function NavBar() {
 						alt="menu icon"
 						height={24}
 						width={24}
-						src={"./icons/Menu.svg"}
+						src={"/icons/Menu.svg"}
 					/>
 				</div>
 				<div className="h-full cursor-pointer flex items-center justify-center grow sm:border-r border-default">
@@ -32,7 +32,7 @@ export default function NavBar() {
 					alt="menu icon"
 					height={24}
 					width={24}
-					src={"./icons/bag.svg"}
+					src={"/icons/bag.svg"}
 				/>
 				(5)
 			</div>
